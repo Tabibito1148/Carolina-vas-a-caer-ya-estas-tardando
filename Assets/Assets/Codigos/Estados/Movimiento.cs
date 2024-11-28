@@ -1,7 +1,10 @@
+using System.Collections;
 using UnityEngine;
 
 public class MovimientoStates : MonoBehaviour
 {
+    public Joystick joystick;
+
     public Animator dongojo;
     public Rigidbody2D rigid;
 
@@ -23,6 +26,7 @@ public class MovimientoStates : MonoBehaviour
     [SerializeField] public KeyCode teclas;
     [SerializeField] Vector2 tamañoDeteccion;
     public bool tocandoPiso;
+    public bool saltoActivado;
 
     void Start()
     {
@@ -40,8 +44,8 @@ public class MovimientoStates : MonoBehaviour
     }
     void Update()
     {
-        horizontal = Input.GetAxis("Horizontal");
-
+       
+        horizontal = joystick.Horizontal;
         estadoActual.StateUpdate();
 
         Flip();
@@ -73,4 +77,15 @@ public class MovimientoStates : MonoBehaviour
             transform.localEulerAngles = new Vector3(transform.eulerAngles.x, horizontal > 0 ? 0 : 180, transform.eulerAngles.z);
         }
     } 
+    public void EjecutarSalto()
+    {
+        StartCoroutine(EjecutarSaltoCorrutina());
+    }
+    IEnumerator EjecutarSaltoCorrutina() 
+    {
+        saltoActivado = true;
+        yield return new WaitForEndOfFrame();
+        saltoActivado=false;
+        
+    }
 }

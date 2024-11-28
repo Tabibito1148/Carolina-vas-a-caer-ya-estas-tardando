@@ -1,0 +1,12 @@
+# ninja log v5
+9	4181	7544413342778064	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d666f069164fbb85
+14	4478	7544413345853832	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c0309dcdae2ae003
+105	4489	7544413344608378	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a69e5d7e1ea335cb
+19	4571	7544413345405039	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	56f69c5ea42d47c5
+4490	5480	7544413355352689	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	1f103cbee9f2d209
+154	5798	7544413358033009	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	fa418afc0b585f65
+1	6134	7544413362901282	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9b77ba347f51046d
+5480	6435	7544413366752627	D:/UnityProjects/Carolina-vas-a-caer-ya-estas-tardando/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6j72e2ea/obj/arm64-v8a/libswappywrapper.so	fe07039e05876d24
+4184	6623	7544413368587303	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	258dcdd6aab8963c
+4478	6658	7544413368945200	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d89c6dcab382bd37
+6658	6801	7544413370350542	D:/UnityProjects/Carolina-vas-a-caer-ya-estas-tardando/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6j72e2ea/obj/arm64-v8a/libgame.so	723115f7098eb100
